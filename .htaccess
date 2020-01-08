@@ -1,0 +1,2 @@
+php_value include_path "E:\xampp\htdocs\Public_html\host\vendor"
+php_value auto_prepend_file "autoload.php"
