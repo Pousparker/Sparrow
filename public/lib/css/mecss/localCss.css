@@ -1,0 +1,27 @@
+@media screen and (max-width: 750px) {
+    .me-smallflex  {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .me-flex  {
+        width: 250px;
+        height: 450px;
+        position: relative;
+        left: 470px;
+        top:130px;
+    }
+}
+body{
+     background: #f9f8fa;
+}
+.me-radus{
+    border-radius:10px ;
+}
+.me-topradus{
+    border-radius:10px 10px 0 0 ;
+}
+.me-blue-gradient{
+    background: #ffffff;  /* fallback for old browsers */
+
+}
