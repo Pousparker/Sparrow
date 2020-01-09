@@ -19,5 +19,12 @@ class HomeControllers extends BaseControllers
     {
         return parent::view("singup/index",['']);
     }
+    public function out()
+    {
+        session_start();
+        session_unset();
+        session_destroy();
+        return $this->view("home/index",[""]);
+    }
 
 }
