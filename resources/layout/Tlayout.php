@@ -20,7 +20,7 @@
         <ul class="uk-navbar-nav">
             <li class="uk-active"><a href="../home/index">Home</a></li>
             <li>
-                <a href="#">About</a>
+                 <a href="../home/out">Exit</a>
             </li>
         </ul>
 
