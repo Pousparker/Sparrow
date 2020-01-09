@@ -1,3 +1,6 @@
+<?php
+$name=$data["name"];
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,10 +37,10 @@
             <li>
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-auto">
-                        <img class='uk-border-circle' width='40' height='40' src='../img/vector/man.svg'>
+                        <img class='uk-border-circle' width='40' height='40' src='{$name["image"]}'>
                     </div>
                     <div class="uk-width-expand">
-                        <h3 class="uk-card-title uk-margin-remove-bottom uk-margin-right">pouira</h3>
+                        <h3 class="uk-card-title uk-margin-remove-bottom uk-margin-right">{$name["ID"]}</h3>
                     </div>
             </li>
         </ul>
